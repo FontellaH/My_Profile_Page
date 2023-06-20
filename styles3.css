@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topnav {
+    width: 40rem;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-profile {
+    color: goldenrod;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+button {
+    width: 70px;
+    background-color: goldenrod;
+    color: black;
+}
+
+.container {
+    width: 50%;
+    height: 455px;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.lefttop {
+    width: 400px;
+    height: 300px;
+    margin: 0px;
+    /* border: 1px solid fuchsia; */
+}
+
+.card-1 {
+    width: 400px;
+    min-height: 220px;
+    /* background-color: blueviolet;  */
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border: 2px solid black;
+}
+
+.c1-nav {
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.profile-image {
+    width: 80px !important;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+.card-2 {
+    width: 400px;
+    min-height: 114px;
+    /* background-color: teal;  */
+    margin-top: 45px;
+    border-color: 2px solid black
+}
+
+.c2-nav {
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    color: goldenrod;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.container2 {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    /* border: 1px solid black;  */
+}
+
+.card-3 {
+    width: 210px;
+    height: 153px;
+    /* background-color: yellow; */
+    margin: 20px;
+    border: 2px solid black;
+    margin-right: 80px;
+    padding: 10px 10px 10px;
+}
+
+.c3-nav {
+    width: 230px;
+    height: 30px;
+    background-color: black;
+    color: goldenrod;
+    margin-top: -8px;
+}
+
+.card-4 {
+    width: 210px;
+    min-height: 225px;
+    /* background-color: lime; */
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px 10px 10px;
+}
+
+.c4-nav {
+    width: 210px;
+    height: 40px;
+    background-color: black;
+    color: goldenrod;
+    margin-top: -10px;
+}
+
+p>img {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.img-2 {
+    border-radius: 70%;
+    margin-top: -25px;
+}
+
+span {
+    text-align: center;
+    font-size: larger;
+    margin-left: 110;
+}
+
+.c4-bottom-nav {
+    background-color: black;
+    width: 210px;
+    height: 30px;
+}
